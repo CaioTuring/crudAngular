@@ -1,0 +1,23 @@
+mat-card{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+}
+
+mat-card-title{
+    margin-bottom: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    margin-right: 10px;
+}
+
+.button{
+    margin-top: 20px;
+}

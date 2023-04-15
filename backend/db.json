@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Azul",
+      "price": "5.89"
+    },
+    {
+      "id": 2,
+      "name": "Notebook Acer Aspire 3",
+      "price": "3880.00"
+    },
+    {
+      "id": 3,
+      "name": "Energetico Monster",
+      "price": "10.80"
+    },
+    {
+      "id": 4,
+      "name": "Moeda de 1 Real (MBC) - 2023 - Reverso invertido",
+      "price": "125.00"
+    },
+    {
+      "name": "Mouse logitech",
+      "price": "39.90",
+      "id": 5
+    }
+  ]
+}
