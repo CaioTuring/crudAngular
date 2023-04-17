@@ -1,4 +1,4 @@
-<h1 color="blue">Projeto simples de um CRUD de Produtos em Angular</h1>
+<h1 color="pink">Projeto simples de um CRUD de Produtos em Angular</h1>
 
 ![image](https://user-images.githubusercontent.com/95253787/232353019-141cdb55-f465-4d10-aa15-87615bd672ee.png)
 ![image](https://user-images.githubusercontent.com/95253787/232353050-7051787b-ba00-4673-811e-1ad571c53c2f.png)
