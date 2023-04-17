@@ -37,6 +37,9 @@ import { registerLocaleData } from '@angular/common';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import {MatIconModule} from '@angular/material/icon'
+
 registerLocaleData(localePt);
 
 @NgModule({
@@ -70,8 +73,9 @@ registerLocaleData(localePt);
     MatInputModule,
     MatTableModule,
     MatPaginatorModule,
-    MatSortModule
-
+    MatSortModule,
+    MatSlideToggleModule,
+    MatIconModule
   ],
   providers: [{
     provide: LOCALE_ID,

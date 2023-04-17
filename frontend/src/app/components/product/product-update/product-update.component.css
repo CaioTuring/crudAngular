@@ -1,4 +1,7 @@
 mat-card{
+    background-color: var(--primary);
+    color: var(--secondary);
+    font-family: var(--main-font);
     display: flex;
     justify-content: center;
     padding: 20px;
@@ -6,6 +9,7 @@ mat-card{
 }
 
 mat-card-title{
+    font-family: var(--main-font);
     margin-bottom: 10px;
 }
 

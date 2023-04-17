@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { HeaderService } from './header.service';
+import { style } from '@angular/animations';
 
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent implements OnInit {
   
@@ -26,6 +27,13 @@ export class HeaderComponent implements OnInit {
   get routeUrl(): string{
     
     return this.headerService.headerData.routeUrl;
+  }
+
+  
+  public toggle(): void{
+    const theme = document.body.classList.toggle("light-theme")
+    console.log("Cliquei no botão");
+    
   }
 
 }

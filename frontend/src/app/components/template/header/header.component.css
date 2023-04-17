@@ -1,8 +1,10 @@
 .header a{
+    font-family: var(--font);
     display: flex;
     align-items: center;
     text-decoration: none;
     color: #000;
+    /*color: #fff;*/
 }
 
 .header .title-group{
@@ -11,4 +13,15 @@
 
 .header .title-group i{
     padding-right: 5px;
+}
+
+.slide-toogle{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+.icon{
+    margin-top: 4px;
+    margin-left: 5px;
 }

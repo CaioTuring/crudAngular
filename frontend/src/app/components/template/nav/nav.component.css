@@ -1,5 +1,12 @@
-.sidenav{
-    background-color: #3f51b5;
+.container{
+    font-family: var(--main-font);
+    background-color: var(--background);
+}
+
+.sidenav {
+    /*background-color: #3f51b5;*/
+    font-family: var(--main-font);
+    background-color: var(--sidenav);
     width: 145px;
 }
 
@@ -7,7 +14,14 @@
     padding-right: 5px;
     vertical-align: middle;
     margin-top: -5px;
+    /*color: var(--secondary);*/
 }
+
+/*
+.sidenav a{
+    color: var(--secondary);
+}
+*/
 
 .content{
     padding: 16px;

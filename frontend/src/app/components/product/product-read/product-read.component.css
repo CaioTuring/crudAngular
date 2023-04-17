@@ -1,8 +1,15 @@
 table{
+    font-family: var(--main-font);
+    background-color: var(--primary);
     width: 100%;
 }
 
+.color{
+    color: var(--secondary);
+}
+
 .edit{
+    font-family: var(--main-font);
     margin-right: 10px;
 }
 
